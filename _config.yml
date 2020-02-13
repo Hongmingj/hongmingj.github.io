@@ -1,6 +1,46 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
 baseurl: "morehongming" # the subpath of your site, e.g. /blog
 url: "https://hongmingj.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
+title: "morehongming"
+subtitle: "Career Development"
+description: "Career Development"
+keywords:blog, zhang0peter
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 3  #主页展示的github仓库数量
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+#   -
+#     href: /archives/
+#     label: 归档 
+
+  -
+    href: /wiki/
+    label: 维基
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+
 markdown: kramdown
 permalink: pretty
 plugins:
